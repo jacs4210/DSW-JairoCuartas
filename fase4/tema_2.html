@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Fase 4</title>
+</head>
+
+<body>
+  <header>
+    <h1>Fase 4 - Diseño y Construcción III</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a class="active" href="index.html">Inicio</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Temas</a>
+        <div class="dropdown-content">
+          <a href="tema_1.html">Etiquetas basicas HTML</a>
+          <a href="tema_2.html">Atributos y valores</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Recursos Digitales</a>
+        <div class="dropdown-content">
+          <a href="recurso_1.html">Recurso 1</a>
+          <a href="recurso_2.html">Recurso 2</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Aprendizaje</a>
+        <div class="dropdown-content">
+          <a href="aprendizaje_1.html">Aprendizaje 1</a>
+          <a href="aprendizaje_2.html">Aprendizaje 2</a>
+        </div>
+      </li>
+      <li><a href="autor.html">Acerca de</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <article>
+        <h2>Atributos y valores</h2>
+
+        <p>
+          Las etiquetas HTML manejan diferentes atributos con sus respectivos valores para poder garantizar un
+          comportamiento a la página web, ya sea redireccionar un clic, indicar el lugar donde se almacena una imagen,un
+          audio, entre otras. A continuación se definirán algunos atributos y que valores debe de tomar:
+        </p>
+
+        <ul>
+          <li><strong>src:</strong> Este atributo le permite al navegador conocer la ubicación de un recurso que debe
+            desplegar, este
+            atributo va asociado a etiquetas como img y el valor que toma es la ruta de la imagen en el servidor, por el
+            cual
+            el navegador automáticamente genera una petición GET / HTTP para poder obtener esta imagen del servidor.
+          </li>
+          <li><strong>style:</strong> Permite asignar estilos CSS a una propiedad en especifico de una pagina html, por
+            lo tanto, es posible que adopte valores como "background-color: red;", entre otros. Esto es aplicable a
+            cualquier etiqueta HTML.</li>
+          <li><strong>action:</strong> "La URL del programa que procesa la información enviada en el formulario."
+            (Mozilla, 2021)</li>
+          <li><strong>align:</strong>strong> "Especifica el alineamiento horizontal del elemento." (Mozilla, 2021)</li>
+          <li><strong>href:</strong> "La URL de un recurso asociado." (Mozilla, 2021)</li>
+          <li><strong>id:</strong> "Identificador el elemento para acceder al mismo desde CSS o Javascript, este
+            indicador debe ser unico para cada elemento." (Mozilla, 2021)</li>
+        </ul>
+
+        <p>Por otro lado, el HTML posee 2 caras en cuanto a los atributos, donde los atributos se clasifican en
+          atributos de contenido y atributos IDL.
+        </p>
+        <p>
+          "El atributo de contenido es aquel que se define desde el contenido (Codigo HTML) y puedes definirlo u
+          obtenerlo con element.setAttribute() o element.getAttribute(). El atributo de contenido es siempre un string
+          incluso cuando el valor esperado en un integer. Por ejemplo, para definir el maxlength de un "input" a 42
+          usando el atributo de contenido, se debe llamar a setAttribute("maxlength", "42") en ese elemento."(Mozilla,
+          2021)
+        </p>
+        <p>
+          "El atributo IDL, tambien conocido como propiedad JavaScript. Estos son atributos que se pueden leer o definir
+          usando JavaScript como element.foo.. El atributo IDL siempre va a usar (pero puede transformarse) en el
+          atributo de contenido subyacente para retornar un valor cuando lo obtiene y lo guarda en el atributo de
+          contenido cuando es definido. En otras palabras el atributo IDL, en esencia, refleja los atributos de
+          contenido."(Mozilla, 2021)
+        </p>
+      </article>
+      <article>
+        <h3>Referencias:</h3>
+        <p>
+        <ul>
+          <li>Terán Anciano, J. (2016). Manual de Introducción al lenguaje HTML. Formación para el Empleo. Editorial
+            CEP,
+            S.L. Recuperad de <a
+              href="https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/50964?page=134">https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/50964?page=134</a>
+          </li>
+          <li>
+            Mozilla.(2021). Referencia de Atributos HTML. Recuperado de <a
+              href="https://developer.mozilla.org/es/docs/Web/HTML/Attributes">https://developer.mozilla.org/es/docs/Web/HTML/Attributes</a>
+          </li>
+        </ul>
+        </p>
+      </article>
+    </section>
+    <aside>
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Autor: Jairo Andrés Cuartas Sánchez</p>
+    <p>Skype: @jairocuartas18</p>
+    <p>Fecha de Actualización: Diciembre 26 del 2021</p>
+  </footer>
+
+</body>
+
+</html>
